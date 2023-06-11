@@ -65,7 +65,7 @@ var swiper = new Swiper(".avaliacao_row", {
 });
 
 function pedirDoce(opcao) {
-  var numero = "5516988171285";
+  var numero = "5516993278870";
   var mensagem = "Olá, eu gostaria de efetuar o pedido de "+opcao;
 
   var link = "https://wa.me/" + numero + "?text=" + encodeURIComponent(mensagem);
