@@ -64,41 +64,9 @@ var swiper = new Swiper(".avaliacao_row", {
   },
 });
 
-function pedirConeTrufado() {
+function pedirDoce(opcao) {
   var numero = "5516988171285";
-  var mensagem = "TESTE 1";
-
-  var link = "https://wa.me/" + numero + "?text=" + encodeURIComponent(mensagem);
-  window.open(link);
-}
-
-function pedirPocket() {
-  var numero = "5516988171285";
-  var mensagem = "TESTE 2";
-
-  var link = "https://wa.me/" + numero + "?text=" + encodeURIComponent(mensagem);
-  window.open(link);
-}
-
-function pedirPipocaGourmet() {
-  var numero = "5516988171285";
-  var mensagem = "TESTE 3";
-
-  var link = "https://wa.me/" + numero + "?text=" + encodeURIComponent(mensagem);
-  window.open(link);
-}
-
-function pedirBoloDePote() {
-  var numero = "5516988171285";
-  var mensagem = "TESTE 4";
-
-  var link = "https://wa.me/" + numero + "?text=" + encodeURIComponent(mensagem);
-  window.open(link);
-}
-
-function pedirTrufa() {
-  var numero = "5516988171285";
-  var mensagem = "TESTE 5";
+  var mensagem = "Olá, eu gostaria de efetuar o pedido de "+opcao;
 
   var link = "https://wa.me/" + numero + "?text=" + encodeURIComponent(mensagem);
   window.open(link);

@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <!--CSS-->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.min.css" />
 </head>
 
 <body>
@@ -62,7 +62,7 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide box">
           <div class="img">
-            <img src="images/doce1.png" alt="doce1" />
+            <img src="images/doce1.png" alt="Cone trufado" />
           </div>
           <div class="box_conteudo">
             <h3>Cone trufado</h3>
@@ -70,13 +70,13 @@
               valor R$: 10,00
             </p>
             <div class="conteudo_btn">
-              <button onclick="pedirConeTrufado()">Peça já</button>
+              <button onclick="pedirDoce('um cone trufado')">Peça já</button>
             </div>
           </div>
         </div>
         <div class="swiper-slide box">
           <div class="img">
-            <img src="images/doce2.png" alt="doce1" />
+            <img src="images/doce2.png" alt="Pocket" />
           </div>
           <div class="box_conteudo">
             <h3>Pocket</h3>
@@ -84,13 +84,13 @@
               valor R$: 15,00
             </p>
             <div class="conteudo_btn">
-              <button onclick="pedirPocket()">Peça já</button>
+              <button onclick="pedirDoce('um pocket')">Peça já</button>
             </div>
           </div>
         </div>
         <div class="swiper-slide box">
           <div class="img">
-            <img src="images/doce3.png" alt="doce1" />
+            <img src="images/doce3.png" alt="Pipoca gourmet" />
           </div>
           <div class="box_conteudo">
             <h3>Pipoca gourmet</h3>
@@ -98,13 +98,13 @@
               valor R$: 8,00
             </p>
             <div class="conteudo_btn">
-              <button onclick="pedirPipocaGourmet()">Peça já</button>
+              <button onclick="pedirDoce('uma pipoca gourmet')">Peça já</button>
             </div>
           </div>
         </div>
         <div class="swiper-slide box">
           <div class="img">
-            <img src="images/doce4.png" alt="doce1" />
+            <img src="images/doce4.png" alt="Bolo de pote" />
           </div>
           <div class="box_conteudo">
             <h3>Bolo de pote</h3>
@@ -112,13 +112,13 @@
               valor R$: 10,00
             </p>
             <div class="conteudo_btn">
-              <button onclick="pedirBoloDePote()">Peça já</button>
+              <button onclick="pedirDoce('um bolo de pote')">Peça já</button>
             </div>
           </div>
         </div>
         <div class="swiper-slide box">
           <div class="img">
-            <img src="images/doce5.png" alt="doce1" />
+            <img src="images/doce5.png" alt="Trufa" />
           </div>
           <div class="box_conteudo">
             <h3>Trufa</h3>
@@ -126,14 +126,88 @@
               valor R$: 4,00
             </p>
             <div class="conteudo_btn">
-              <button onclick="pedirTrufa()">Peça já</button>
+              <button onclick="pedirDoce('uma trufa')">Peça já</button>
             </div>
           </div>
         </div>
       </div>
       <div class="swiper-pagination"></div>
     </div>
-
+    <div class="swiper produtos_row">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <div class="img">
+            <img src="images/doce6.png" alt="Petisqueira de bombom" />
+          </div>
+          <div class="box_conteudo">
+            <h3>Petisqueira de bombom</h3>
+            <p>
+              valor R$: 35,00
+            </p>
+            <div class="conteudo_btn">
+              <button onclick="pedirDoce('uma petisqueira de bombom')">Peça já</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide box">
+          <div class="img">
+            <img src="images/doce7.png" alt="Caixinha de bombom" />
+          </div>
+          <div class="box_conteudo">
+            <h3>Caixinha de bombom</h3>
+            <p>
+              valor R$: 10,00
+            </p>
+            <div class="conteudo_btn">
+              <button onclick="pedirDoce('uma caixinha de bombom')">Peça já</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide box">
+          <div class="img">
+            <img src="images/doce8.png" alt="Bombom no pote" />
+          </div>
+          <div class="box_conteudo">
+            <h3>Bombom no pote</h3>
+            <p>
+              valor R$: 8,00
+            </p>
+            <div class="conteudo_btn">
+              <button onclick="pedirDoce('um bombom no pote')">Peça já</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide box">
+          <div class="img">
+            <img src="images/doce9.png" alt="Mini pudim" />
+          </div>
+          <div class="box_conteudo">
+            <h3>Mini pudim</h3>
+            <p>
+              valor R$: 6,00
+            </p>
+            <div class="conteudo_btn">
+              <button onclick="pedirDoce('um mini pudim')">Peça já</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide box">
+          <div class="img">
+            <img src="images/doce10.png" alt="Cestinha trufada" />
+          </div>
+          <div class="box_conteudo">
+            <h3>Cestinha trufada</h3>
+            <p>
+              valor R$: 18,00
+            </p>
+            <div class="conteudo_btn">
+              <button onclick="pedirDoce('uma cestinha trufada')">Peça já</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
   </section>
 
   <!--BLOG-->
@@ -149,7 +223,7 @@
             <p>
               Sabores: Ninho, Nutella, brigadeiro gourmet, prestígio, Oreo, Alpino, ovomaltine.
             </p>
-            <a onclick="pedirConeTrufado()" class="conteudo_btn">Peça já</a>
+            <a onclick="pedirDoce('um cone trufado')" class="conteudo_btn">Peça já</a>
           </div>
         </div>
         <div class="swiper-slide box">
@@ -161,7 +235,7 @@
             <p>
               Sabores: Nutella, Ninho, prestígio, brigadeiro gourmet, Alpino, Oreo, ovomaltine.
             </p>
-            <a onclick="pedirBoloDePote()" class="conteudo_btn">Peça já</a>
+            <a onclick="pedirDoce('um bolo no pote')" class="conteudo_btn">Peça já</a>
           </div>
         </div>
         <div class="swiper-slide box">
@@ -173,7 +247,19 @@
             <p>
               Sabores: Oreo, ovomaltine, brigadeiro gourmet, prestígio, Nutella, Alpino, Ninho.
             </p>
-            <a onclick="pedirTrufa()" class="conteudo_btn">Peça já</a>
+            <a onclick="pedirDoce('uma trufa')" class="conteudo_btn">Peça já</a>
+          </div>
+        </div>
+        <div class="swiper-slide box">
+          <div class="img">
+            <img src="images/blog-img4.png" alt="Blog" />
+          </div>
+          <div class="box_conteudo">
+            <h3>Cestinha trufada R$: 18,00</h3>
+            <p>
+              Chocolate recheado com leite ninho e um morango na parte superior
+            </p>
+            <a onclick="pedirDoce('uma cestinha trufada')" class="conteudo_btn">Peça já</a>
           </div>
         </div>
       </div>
@@ -319,11 +405,16 @@
       </div>
       <div class="box_conteudo">
         <h3>PEÇA JÁ</h3>
-        <a onclick="pedirConeTrufado()"><i class="fas fa-arrow-right"></i>Cone trufado</a>
-        <a onclick="pedirPocket()"><i class="fas fa-arrow-right"></i>Pocket</a>
-        <a onclick="pedirPipocaGourmet()"><i class="fas fa-arrow-right"></i>Pipoca gourmet</a>
-        <a onclick="pedirBoloDePote()"><i class="fas fa-arrow-right"></i>Bolo de pote</a>
-        <a onclick="pedirTrufa()"><i class="fas fa-arrow-right"></i>Trufa</a>
+        <a onclick="pedirDoce('um cone trufado')"><i class="fas fa-arrow-right"></i>Cone trufado</a>
+        <a onclick="pedirDoce('um pocket')"><i class="fas fa-arrow-right"></i>Pocket</a>
+        <a onclick="pedirDoce('uma pipoca gourmet')"><i class="fas fa-arrow-right"></i>Pipoca gourmet</a>
+        <a onclick="pedirDoce('um bolo no pote')"><i class="fas fa-arrow-right"></i>Bolo de pote</a>
+        <a onclick="pedirDoce('uma trufa')"><i class="fas fa-arrow-right"></i>Trufa</a>
+        <a onclick="pedirDoce('uma petisqueira de bombom')"><i class="fas fa-arrow-right"></i>Petisqueira de bombom</a>
+        <a onclick="pedirDoce('uma caixinha de bombom')"><i class="fas fa-arrow-right"></i>Caixinha de bombom</a>
+        <a onclick="pedirDoce('um bombom no pote')"><i class="fas fa-arrow-right"></i>Bombom no pote</a>
+        <a onclick="pedirDoce('um mini pudim')"><i class="fas fa-arrow-right"></i>Mini pudim</a>
+        <a onclick="pedirDoce('uma cestinha trufada')"><i class="fas fa-arrow-right"></i>Cestinha trufada</a>
       </div>
       <div class="box_conteudo">
         <h3>NOSSAS REDES</h3>
@@ -343,7 +434,7 @@
   <!--CDN JS-->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <!--JS-->
-  <script src="main.js"></script>
+  <script src="main.min.js"></script>
 </body>
 
 </html>

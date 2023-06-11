@@ -211,7 +211,7 @@ section {
 }
 
 .produtos .produtos_row .box_conteudo h3 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--cor_um);
 }
 
@@ -274,6 +274,7 @@ section {
 }
 
 .blogs .blogs_row .box .box_conteudo p {
+    width: 90%;
     font-size: 1.6rem;
     color: var(--cor_um);
     padding: 1rem 0;
@@ -567,5 +568,11 @@ textarea {
 @media (max-width:520px) {
     .inicio .inicio_conteudo h2 {
         font-size: 5rem;
+    }
+}
+
+@media (max-width:403px) {
+    .blogs .blogs_row {
+        height: 550px;
     }
 }
