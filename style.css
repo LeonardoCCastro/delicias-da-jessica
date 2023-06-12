@@ -454,6 +454,10 @@ textarea {
     margin-bottom: 2rem;
 }
 
+.footer .footer_box .box_conteudo .d-flex {
+    display: flex;
+}
+
 .footer .footer_box .box_conteudo h3 {
     font-size: 2.2rem;
     color: var(--cor_um);
